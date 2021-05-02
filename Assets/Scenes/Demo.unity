@@ -1921,6 +1921,7 @@ GameObject:
   - component: {fileID: 1241547177}
   - component: {fileID: 1241547178}
   - component: {fileID: 1241547179}
+  - component: {fileID: 1241547182}
   - component: {fileID: 1241547181}
   - component: {fileID: 1241547180}
   m_Layer: 0
@@ -2067,6 +2068,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &1241547182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1241547175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbfb8447f1bac3f42ae7d1fd2d400dc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1807375700
 GameObject:
   m_ObjectHideFlags: 0
@@ -2095,7 +2108,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1807375700}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.002, y: -0.002, z: 0}
   m_LocalScale: {x: 1, y: 0.1, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
